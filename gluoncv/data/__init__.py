@@ -17,6 +17,8 @@ from .segbase import ms_batchify_fn
 from .recordio.detection import RecordFileDetection
 from .lst.detection import LstDetection
 
+from .pascal_bdd.detection import BDDDetection
+
 datasets = {
     'ade20k': ADE20KSegmentation,
     'pascal_voc': VOCSegmentation,
